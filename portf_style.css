@@ -1,0 +1,28 @@
+#nav{
+     background-color:#98B17C;
+     color:black;
+     font-size: 25px;
+     padding: 5px;
+     }
+.navi{
+     padding:20px;
+     margin-left:25%;
+     }
+h2 { 
+     margin-left:30%;
+     margin-right:30%;
+     background:#98B17C;
+     padding:5px;
+     }
+footer{
+     margin-left:40%;
+     margin-top: 70%;
+     font-size:20px;
+     background-color:#ABB2AB;
+     }
+body{
+     background: url("https://image.freepik.com/free-photo/foggy-forest-landscape_1048-11805.jpg");
+     background-size:100% 100%;
+     background-repeat: no-repeat;
+     
+     }
