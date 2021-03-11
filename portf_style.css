@@ -7,9 +7,10 @@
 .navi{
      padding:2px;
      margin-left:5%;
+     border-radius: 25% 25%;
      }
 .navi:hover{
-     background-color:rgb(0,0,0);
+     background-color:#006600;
      transition-duration: 0.5s;
 }
 h2, h1 { 
