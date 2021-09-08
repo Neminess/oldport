@@ -1,23 +1,30 @@
 #nav{
-     background-color:#98B17C;
+     background-color:#546b3a;
      color:black;
      font-size: 25px;
      padding: 5px;
+     margin:auto;
+     justify-content: center;
+     text-align: center;
+     display:flex;
      }
 .navi{
      padding:2px;
-     margin-left:5%;
+     margin: auto;
      border-radius: 10px;
+     justify-content: space-between;
      }
 .navi:hover{
-     background-color:#1a3800;
+     background-color:#778b65;
      transition-duration: 0.5s;
+     
 }
 h2, h1 { 
      margin-left:30%;
      margin-right:30%;
-     background:#98B17C;
+     background:#546b3a;
      padding:5px;
+     text-align: center;
      }
 footer{
      margin-left:40%;
@@ -26,12 +33,10 @@ footer{
      background-color:#ABB2AB;
      }
 html{
-     background: url("https://image.freepik.com/free-photo/foggy-forest-landscape_1048-11805.jpg");
-     background-size: 100% 100%;
-     background-repeat: no-repeat;
+     background-color: #546b3a;
      }
 p {
-     background-color:#98B17C;
+     background-color:#2c8640;
      padding:5px;
      }
 body{
