@@ -1,13 +1,10 @@
 var profile_move=document.querySelector("#profile-picture")
 profile_move.addEventListener("click",showContent())
 function showContent(){
-    var posit=0;
-    function frame(){
-        
-            posit++
-            profile_move.style.top=posit+"px";
+    let head_line=document.querySelector("#welcome")
+    console.log(head_line.value)
     }
-}
+
 
 /*
 const e = React.createElement;

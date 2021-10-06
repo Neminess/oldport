@@ -1,21 +1,9 @@
-#nav{
-     background-color:#546b3a;
-     color:black;
-     font-size: 25px;
-     padding: 5px;
-     margin:auto;
-     justify-content: center;
-     text-align: center;
-     display:flex;
-     }
-.navi{
-     padding:2px;
-     margin: auto;
-     border-radius: 10px;
-     justify-content: space-between;
+html,body{
+     background-color: #546b3a !important;
      }
 
-h2, h1 { 
+
+h1 { 
      margin-left:30%;
      margin-right:30%;
      background:#546b3a;
@@ -28,10 +16,6 @@ footer{
      background-color:#ABB2AB; 
 }
 
-html,body{
-     background-color: #546b3a !important;
-     position: relative;
-     }
 #prof-pic-container{
      display: flex;
      justify-content: center;
