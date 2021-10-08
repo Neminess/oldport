@@ -1,7 +1,6 @@
 html,body{
-     background-color: #546b3a !important;
+     background-color: #546b3a;
      }
-
 
 h1 { 
      margin-left:30%;
@@ -20,8 +19,11 @@ footer{
 #prof-pic-container{
      display: flex;
      justify-content: center;
+     position:relative;
+     margin-right: 15%;
 }
 #profile-picture{     
      width:226px;
      height: 325px;    
+     position:absolute;
 }
