@@ -1,10 +1,11 @@
-var profile_move=document.querySelector("#profile-picture")
-profile_move.addEventListener("click",showContent())
-function showContent(){
-    let head_line=document.querySelector("#welcome")
-    console.log(head_line.value)
-    }
+let profile_move=document.querySelector("#profile-picture")
+let head_line=document.querySelector("#welcome")
+profile_move.addEventListener("click",function(){
 
+    //head_line.style.color= "red";
+    profile_move.style.left="100px";
+    }
+)
 
 /*
 const e = React.createElement;
