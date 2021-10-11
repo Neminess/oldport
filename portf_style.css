@@ -26,4 +26,12 @@ footer{
      width:226px;
      height: 325px;    
      position:absolute;
+     animation: profile_move 3s linear;
 }
+/*
+@keyframes profile_move{
+     from{margin-left:0%}
+     to{margin-left:50%}
+    
+
+}*/
