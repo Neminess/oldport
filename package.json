@@ -1,0 +1,11 @@
+{
+  "name": "forumtester",
+  "version": "1.0.0",
+  "description": "forumtesting",
+  "main": "updateText.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nem",
+  "license": "ISC"
+}
