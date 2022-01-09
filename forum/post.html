@@ -1,0 +1,59 @@
+<!-- HTML prototype for the main page of the app -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title>Posts</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js"></script>
+    <script src="/public/js/sendtoDb.js" type="module"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    
+    <!-- navigation bar with logo, search bar and logout link -->
+    <header id="header">
+        <div id="nav">
+            <a id="infor" class="navi" href="portf_siteinfo.html">Site info</a>
+            <a id="about"  class="navi" href="about.html">About me</a>
+            <a id="proj" class="navi"  href="portf_pastpro.html">Past projects</a>
+            <a id="contact" class="navi" href="portf_cont.html"> Contact information</a>
+       </div>
+        
+    </header>
+
+    <div class="container">
+        <!-- sidebar with links to pages: share photo, my groups, my account, support/help -->
+        <div id="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="share.html">Share Photo</a></li>
+                <li><a href="mygroups.html">My Groups</a></li>
+                <li><a href="myaccount.html">My Account</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <main>
+            <!-- div element for main content on page -->
+            <div class="content">
+                <div class="posted_reply" id="existing"> Hello</div>
+                <textarea id="replyToPost"> Write something</textarea>
+                <button id="replyBtn" onclick="TextToWindow()">Submit</button>
+            
+            </div>
+        </main>
+    </div>
+    <script src="/forum/sendtoDb.js" type="module"></script>
+    <script src="/forum/forum_main.js"></script>
+    
+</body>
+
+</html>

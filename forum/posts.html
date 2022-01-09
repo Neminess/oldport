@@ -1,0 +1,70 @@
+<!-- HTML prototype for the main page of the app -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title>Posts</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    
+    <!-- navigation bar with logo, search bar and logout link -->
+    <header id="header">
+        <!-- add image with css -->
+        <div id="logo">
+            <a href="index.html"> <img src="images/logo2.png" alt=""></a>
+        </div>
+        <div id="search-bar">
+            <input type="text" Placeholder="Search...">
+        </div>
+
+        <div id="icons-right">
+            <a href="">Logout</a>
+        </div>
+        
+    </header>
+
+    <div class="container">
+        <!-- sidebar with links to pages: share photo, my groups, my account, support/help -->
+        <div id="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="share.html">Share Photo</a></li>
+                <li><a href="mygroups.html">My Groups</a></li>
+                <li><a href="myaccount.html">My Account</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <main>
+            <!-- div element for main content on page -->
+            <div class="content">
+                <div class="table-row">
+                    <div class="status">Status</div>
+                    <div class="subjects">
+                        <a href="post.html" onclick="wtf()" id="123">Is learning Python on 2021 worth it?</a>
+                        <br>
+                    </div>
+    
+                    <div class="last-reply">
+                        Oct 12 2021
+                        <br>By <b><a href="">User</a></b>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+    <script src="/public/forum_main.js" type="js"></script>
+    <script src="/public/js/sendtoDb.js" type="module"></script>
+</body>
+
+</html>
