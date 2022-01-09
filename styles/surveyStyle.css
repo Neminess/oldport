@@ -1,0 +1,23 @@
+#title{
+    align-self: center;
+}
+#full-form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#survey-form{
+    background-color: #8a9a5b;
+    padding:5% 10%;
+    margin-top: 2%;
+}
+#email,#name{
+    margin-bottom:10px;
+}
+#add-feedback{
+    margin-bottom:15px;
+    min-width:300px;
+}
+#submit{
+    margin-left:70%;
+}
