@@ -2,7 +2,7 @@ body{
      background-color: #546b3a;
      }
 
-h1 { 
+h2 { 
      margin-left:30%;
      margin-right:30%;
      background:#546b3a;
@@ -37,10 +37,11 @@ li:hover{
      height: 325px;    
      position:sticky;
 }
-#mainContainer{
+.main-content{
      display:flexbox;
      flex-direction: column;
      padding: 0% 10% 0% 10%;
+     
 }
 #about{
      background-color: whitesmoke;
