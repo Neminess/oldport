@@ -1,13 +1,12 @@
-let changling=document.querySelector("#textPlace");
+let textAre=document.querySelector("#textPlace");
 let buttoner=document.querySelector("#addText");
 
 
 
 buttoner.addEventListener("click", function(){
-   let neDiv=document.createElement("div");
-   const appendComment=document.createTextNode(changling.value);
-   neDiv.appendChild(appendComment);
-   document.body.insertBefore(neDiv,changling);
-   
+   let addBelo=document.querySelector("#existingText");
+   let textAdded=textAre;
+   let createDiv=document.createElement("div");
+   addBelo.appendChild(createDiv, createDiv.textContent=textAdded.value);
 });
  
