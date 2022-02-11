@@ -29,7 +29,7 @@
     justify-self: center;
 }
 
-#nav-bar{
+#navbar{
     display: flex;
     flex-direction: column;
     float:left;
@@ -55,7 +55,7 @@
 }
 
 @media screen and (max-width:800px){
-    #nav-bar{
+    #navbar{
         float:none;
         width: 100%;
         margin-bottom: 10%;  
