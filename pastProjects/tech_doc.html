@@ -8,23 +8,23 @@
     <link rel="stylesheet" href="/styles/tech_style.css">
 </head>
 <body>
-    <nav id="nav-bar">
+    <nav id="navbar">
         <header id="nav-header">A short look into OCR</header>
-        <a class="nav-link" href="#ocr_what_is_it">OCR-what is it?</a>
-        <a class="nav-link" href="#ocr_history">OCR-history</a>
-        <a class="nav-link" href="#how_it_works">How it works</a>
-        <a class="nav-link" href="#modern_usage">Modern usage</a>
-        <a class="nav-link" href="#conclusion">Conclusion</a>
+        <a class="nav-link" href="#OCR-what_is_it?">OCR-what is it?</a>
+        <a class="nav-link" href="#OCR-history">OCR-history</a>
+        <a class="nav-link" href="#How_it_works">How it works</a>
+        <a class="nav-link" href="#Modern_usage">Modern usage</a>
+        <a class="nav-link" href="#Conclusion">Conclusion</a>
     </nav>
     <main id="main-doc">
         <h2>This is a short documentation about OCR</h2>
-        <section id="ocr_what_is_it" class="main-section">
-            <header>OCR- what is it?</header>
+        <section id="OCR-what_is_it?" class="main-section">
+            <header>OCR-what is it?</header>
             <p>OCR comes from Optical Character Recognition. It is the technique used to  scan documents into editable from,
             transfer information from paper to apps like excel, hand-held reading devices and virtual glasses meant to aid seeing-impaired people.</p>
            
         </section>
-        <section id="ocr_history" class="main-section">
+        <section id="OCR-history" class="main-section">
             <header id="info">OCR-history</header>
             <p>OCR was first developed in the 80s; the first device was made to make books more accessible to blind people.</p>
             <p>The first OCR-devices didn't use a voice to read the letters it scanned. Instead, it let out beeps andd boops of different frequencies to the user via headphones.</p>
@@ -36,23 +36,23 @@
                 <li>2000–2016  	OCR software is made available online for free, through products like Adobe Acrobat, WebOCR, and Google Drive</li>
             </ul>
         </section>
-        <section id="how_it_works" class="main-section">
+        <section id="How_it_works" class="main-section">
             <header>How it works</header>
             <p>OCR works by detecting differences in hues in the text it scans. The technology detects the blacks and whites in an image, determining either pixel by pixel which part is black and white or by taking a group of pixels and determining the differences between them. The darker pixels are made black, lighter ones are white.</p>
         </section>
-        <section id="modern_usage" class="main-section">
+        <section id="Modern_usage" class="main-section">
             <header >Modern usage</header>
             <p>Today, OCR is used in banks to transfer checks to online-accounts, in VR-devices for the blind and seeing-impaired to read bottle labels and even detect objects (and where the objects are).</p>
             <p>The technology is also used in cars that detect traffic-signs, in offices to transfer paper-documents to digitally editable form etc.</p>
             <p>There are many applications and uses for OCR-technology, the main one in my opinion being the VR-glasses and devices for the seeing-impaired.</p>
             <p>This technology has helped, and continues to help, the handicapped people be more independent and have more experiences they wouldn't normally have in the same</p>
         </section>
-        <section id="conclusion" class="main-section">
+        <section id="Conclusion" class="main-section">
             <header>Conclusion</header>
             <p>All in all, OCR is simple to program with the help of Tesseract OCR. It is the most popular and used module and for a good reason. </p>
             <p>It works, and it works well. It is easy to use and best of all, it is free. So if one is going to make a program involving OCR, the Tesseract OCR is an exceptional option for the OCR-part of the code.</p>
             <p>Tesseract is used with Python (other languages have their own import statements) by importing it with<code> import pytesseract as tess</code>. Then, the program is given a path to find the cmd for the tesseract-module/program. </p>
-            <p>Next, Image-is imported from PIL with a simple snippet: <code>from PIL import Image</code>. The image containing the text to be transferred into editable form is passed to a variable. After this the tesseract is called to action with</p>
+            <p>Next, Image-is imported from PIL with a simple snippet: <code>from PIL import Image</code>. The image containing the text to be transferred into editable form is passed to a variable: <code> var img=img.open(some_image) </code>. After this the tesseract is called to action with</p>
             <p><code>text=tess.image_to_string(img)</code>. Finally, the program or empty file where the text is destined to go is opened, the text is written with <code>file.write(text)</code> and you are done. </p>
         </section>
     </main>
