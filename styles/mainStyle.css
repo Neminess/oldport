@@ -54,3 +54,11 @@ footer{
      font-size:20px;
      background-color:#f5f4e2; 
 }
+.project{
+     text-decoration: none;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+}
+.project a{
+     text-decoration: none;
+}
