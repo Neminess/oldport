@@ -9,27 +9,24 @@ h2 {
      text-align: center;
      color:black;
      }
-#navBar{
-     display: flex;
-     justify-content: center;
-}
+
 #nav{
      list-style-type: none;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      font-size: 20px;
      display: flex;
      justify-content: space-evenly;
-     flex: 0 0 100%;
 }    
-     
-li a{
+.nav-link a{
+    
      text-decoration: none;
-     color: black;
-     padding:2% 0%;
-     margin:auto;
+     color:rgb(15, 22, 8);
+
 }
-li:hover{
-     background-color: rgb(233, 225, 214);
+
+li a:hover{
+     background-color: rgb(160, 206, 154);
+     transition:0.7s ease;
 }
 #profile-picture{     
      width:226px;
@@ -61,4 +58,8 @@ footer{
 }
 .project a{
      text-decoration: none;
+     color:black;
+     padding:2px;
+     margin:5%;
+    
 }
