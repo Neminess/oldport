@@ -3,13 +3,13 @@ body{
 }
 #welcome-section{
     height: 100vh;
-   
+    margin-top:10%;
 }
 #navbar{
     position:fixed;
     top:0;
     background-color: rgb(243, 217, 184);
-    
+    width:100%;
 }
 #navbar ul{
     display:flex;
@@ -33,6 +33,8 @@ body{
 #projects{
     display:flex;
     justify-content: space-evenly;
+    height:500px;
+    
 }
 @media screen and(max-width: 800px){
     #navbar{
