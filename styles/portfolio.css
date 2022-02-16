@@ -1,0 +1,41 @@
+body{
+    background-color: beige;
+}
+#welcome-section{
+    height: 100vh;
+   
+}
+#navbar{
+    position:fixed;
+    top:0;
+    background-color: rgb(243, 217, 184);
+    
+}
+#navbar ul{
+    display:flex;
+    padding-top: 3%;
+    justify-content: space-evenly;
+    border-bottom: 2px solid darkgreen;
+}  
+.navlink, .navlink a{
+    list-style-type: none;
+    text-decoration: none;
+    color:black;
+    padding: 1%;
+    font-size: 22px;
+}
+.navlink:hover{
+    background-color: rgb(68, 172, 115);
+    transition: background-color 0.5s ease-in ;
+
+}
+
+#projects{
+    display:flex;
+    justify-content: space-evenly;
+}
+@media screen and(max-width: 800px){
+    #navbar{
+        height:5%;
+    }
+}
