@@ -45,9 +45,6 @@ h2 {
      background-color: rgb(224, 208, 174);
      height:50vh;
 }
-#about{
-     background-color: whitesmoke;
-}
 
 footer{
      position: absolute;
@@ -69,9 +66,6 @@ footer{
      margin:5%;
     
 }
-.back_to_index{
-     text-decoration: none;
-     color:black;
-     background-color: green;
+.about-art p{
+    text-align: center;
 }
-
