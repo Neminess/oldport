@@ -1,10 +1,16 @@
+html{
+     background-color: #546b3a;
+     background-image: -moz-linear-gradient(top, rgb(216, 172,60) 0%, #546b3a 25vh, rgb(224, 208, 174) 50vh, #546b3a 100%);
+     background-repeat:no-repeat;
+}
+
 body{
-     background-color: #546b3a !important;
+     background-color: transparent;
      
      }
 
 h2 { 
-     background:#546b3a;
+     text-decoration: underline;
      padding:5px;
      text-align: center;
      color:black;
@@ -17,7 +23,7 @@ h2 {
      font-size: 20px;
      display: flex;
      justify-content: space-evenly;
-     background-color: rgb(216, 172, 60);
+    /* background-color: rgb(216, 172, 60);*/
      height:100px;
      align-items: center;
 }
@@ -43,13 +49,13 @@ h2 {
      display:flexbox;
      flex-direction: column;
      padding: 0% 10% 0% 10%;
-     background-color: rgb(224, 208, 174);
+     /*background-color: rgb(224, 208, 174);*/
     
 }
 .main-content p{
      height:max-content;
      padding:5%;
-     background-color: rgb(224, 208, 174);
+     /*background-color: rgb(224, 208, 174);*/
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      text-align: center;
 }
@@ -81,4 +87,13 @@ footer{
 }
 .about-art p{
     text-align: center;
+}
+#comments{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+#textPlace, #addText{
+     width:20%;
+     align-self: center;
 }
