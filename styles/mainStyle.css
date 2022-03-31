@@ -1,6 +1,6 @@
 html{
-     background-color: #546b3a;
-     background-image: -moz-linear-gradient(top, rgb(216, 172,60) 0%, #546b3a 35vh);
+     /*background-color: #546b3a;*/
+     background-image: -moz-linear-gradient(top, rgb(216, 172,60) 0vh, #546b3a 20vh);
      background-repeat:no-repeat;
 }
 
@@ -14,17 +14,18 @@ h2 {
      padding:5px;
      text-align: center;
      color:black;
-   
+     font-size: 24px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      }
 
 #navi{
      list-style-type: none;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     font-size: 20px;
+     font-size: 24px;
      display: flex;
      justify-content: space-evenly;
     /* background-color: rgb(216, 172, 60);*/
-     height:100px;
+     height:15vh;
      align-items: center;
 }
 
@@ -48,9 +49,11 @@ h2 {
 .main-content{
      display:flexbox;
      flex-direction: column;
-     padding: 0% 10% 0% 10%;
+     /*padding: 0% 10% 0% 10%;*/
      /*background-color: rgb(224, 208, 174);*/
-     background-image: -moz-linear-gradient(top,#546b3a 0%, rgb(169, 192, 133) 50%, #546b3a 100%);
+     background-image: -moz-linear-gradient(top,#546b3a 0vh, rgb(156, 170, 130) 30vh, #546b3a 100%);
+     width:100%;
+     height:100%;
     
 }
 .main-content p{
@@ -58,9 +61,10 @@ h2 {
      padding:5%;
      /*background-color: rgb(224, 208, 174);*/
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
      text-align: center;
-     height:100vh;
-}
+     background-color: transparent;
+}    
 footer{
      position:fixed;
      bottom:0;
@@ -78,7 +82,7 @@ footer{
 .project{
      text-decoration: none;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     font-size: 20px;
+     font-size: 24px;
      width:40%;
    
 }
