@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+     <h2>Asking info</h2>
+<button onclick="askName()">Ask info</button>
+<p id="model5"></p>
+<script>
+function askName(){
+     var info=prompt("What's your name", "Nina Nobody");
+     var age=prompt("What's your age","0");
+     if (info!=null && age!=null) {
+          document.getElementById("model5").innerHTML=
+          "Hello "+ info+ "!"+"You are " + age+" years old.";
+          }
+          }
+</script>
+</body>
+
+</html>
