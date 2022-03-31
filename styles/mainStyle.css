@@ -1,5 +1,5 @@
 html{
-     /*background-color: #546b3a;*/
+     background-color: #546b3a;
      background-image: -moz-linear-gradient(top, rgb(216, 172,60) 0vh, #546b3a 20vh);
      background-repeat:no-repeat;
 }
@@ -37,7 +37,7 @@ h2 {
      padding: 30px;
 }
 .nav-link:hover{
-     background-color: rgb(205, 206, 154);
+     background-color: rgba(216, 172, 60, 0.664);
      transition:0.6s ease;
      
 }
@@ -64,6 +64,7 @@ h2 {
      font-size: 20px;
      text-align: center;
      background-color: transparent;
+    
 }    
 footer{
      position:fixed;
@@ -84,7 +85,7 @@ footer{
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      font-size: 24px;
      width:40%;
-   
+     
 }
 .project a{
      text-decoration: none;
