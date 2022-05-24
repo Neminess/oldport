@@ -1,11 +1,14 @@
-function Navbar(){
+import { Link } from "react-router-dom";
+import React from 'react';
+
+const Navbar=()=>{
     return(
     <nav id="navBar">
           <ul id="nav">
-               <li className="nav-link"><a href="portf_siteinfo.html">Site info</a></li>
-               <li className="nav-link"><a href="about.html">About me</a></li>
-               <li className="nav-link"><a href="portf_pastpro.html">Past projects</a></li>
-               <li className="nav-link"><a href="portf_contact.html"> Contact information</a></li>
+               <li className="nav-link"><Link to="./SiteInfo">Site info</Link></li>
+               <li className="nav-link"><Link to="./About">About me</Link></li>
+               <li className="nav-link"><Link to="./PastProjects">Past projects</Link></li>
+               <li className="nav-link"><Link to="./Contact"> Contact information</Link></li>
           </ul>
      </nav>
     );
