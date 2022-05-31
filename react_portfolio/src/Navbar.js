@@ -3,6 +3,7 @@ import React from 'react';
 
 const Navbar=()=>{
     return(
+   
     <nav id="navBar">
           <ul id="nav">
                <li className="nav-link"><Link to="./SiteInfo">Site info</Link></li>
