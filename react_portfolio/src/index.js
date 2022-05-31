@@ -14,7 +14,7 @@ return(
   <Router>
    <Navbar/>
       <Routes>
-        <Route path="/SiteInfo" exact element={<SiteInfo/>}></Route>
+        <Route path="/" exact element={<SiteInfo/>}></Route>
         <Route path="/About" exact element={<About/>}></Route>
         <Route path="/PastProjects" exact element={<PastProjects/>}></Route>
         <Route path="/Contact" exact element={<Contact/>}></Route>
@@ -26,3 +26,4 @@ const root = ReactDOM.createRoot(
   root.render(<App/>);
 //consult https://www.educative.io/blog/react-router-tutorial
 // and https://blog.logrocket.com/creating-navbar-react/
+//for db connection see https://www.browzzweb.com/2021/01/create-react-app-without-nodejs.html 

@@ -3,7 +3,7 @@ import React from 'react';
 function About(){
     console.log("About");
     return (
-        <section id="main-content">
+        <section id="mainContent">
           <h2>About me</h2>
           <p>My name is Noora Hiltunen and I am a student at <a href="https://www.taitotalo.fi" target="_blank" rel="noopener noreferrer">Taitotalo.</a></p>
           
